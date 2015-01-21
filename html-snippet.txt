@@ -1,9 +1,9 @@
+Put the following code before the first link in the body of your html.
+
 <ul class="skiplink">
    <li><a href="#menu">Naar menu</a></li>
    <li><a href="#content">Naar inhoud</a></li>
 </ul>
-
-
 
 
 Put some id's in the right place in your code to skip to, i.e.:
