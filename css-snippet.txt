@@ -1,0 +1,19 @@
+.skiplink {
+  position: absolute;
+  left: -999em;
+  top: -999em;
+}
+
+.skiplink a:focus,
+.skiplink a:active {
+  position: absolute;
+  left: 1000em;
+  top: 1000em;
+  padding: 7px;
+  white-space: nowrap;
+  background: #cccccc;
+  color: #000000;
+}
+/* use extras if not well shown
+   z-index: ;
+ */
