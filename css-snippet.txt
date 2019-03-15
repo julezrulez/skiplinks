@@ -1,19 +1,22 @@
-.skiplink {
+.visually-hidden
+{
   position: absolute;
-  left: -999em;
-  top: -999em;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
 }
 
-.skiplink a:focus,
-.skiplink a:active {
-  position: absolute;
-  left: 1000em;
-  top: 1000em;
-  padding: 7px;
-  white-space: nowrap;
-  background: #cccccc;
-  color: #000000;
+.visually-hidden:focus
+{
+  position: relative;
+  height: auto;
+  width: auto;
+  left: auto;
+  top: auto;
+ /* position and style what fits you best */
 }
+
 /* use extras if not well shown
    z-index: ;
  */
