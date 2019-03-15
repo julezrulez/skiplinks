@@ -1,29 +1,21 @@
 Put the following code before the first link in the body of your html.
+`<a href="#content" class="visually-hidden">Skip to content</a>`
 
-<ul class="skiplink">
-   <li><a href="#menu">Naar menu</a></li>
-   <li><a href="#content">Naar inhoud</a></li>
-</ul>
-
+Any cookie message should be prior to the skiplink shown.
 
 Put some id's in the right place in your code to skip to, i.e.:
 
-<div id="header">
-</div>
-<div id="menu">
-</div>
-<div id="content">
-</div>
+`<div id="content">
+</div>`
 
 
 Or, if you use HTML4 or XHTML you can use:
 
-<a name="menu"></a>
-<a name="content"></a>
+`<a name="content"></a>`
 
 
 
-Please note that Chrome has some trouble skipping to a non-focusable element.
+Please note some browsers have (or had) trouble skipping to a non-focusable element.
 A work-around is tabindex="-1":
 
-<div id="menu" tabindex="-1">
+`<div id="menu" tabindex="-1">`
